@@ -1,0 +1,36 @@
+{
+  "places": [
+    {
+      "place": "Red's Meadow Campground",
+      "location": "Mammoth Lakes,CA",
+      "description": "Campground near Mammoth Mountain in the Sierra Nevada Mountain range in central California.",
+      "type": "places",
+      "id": 1
+    }
+  ],
+  "restaurants": [
+    {
+      "place": "Brandy Ho's",
+      "location": "San Francisco, CA",
+      "description": "Chinese Hunanese restauraunt. Basically the super spicy Chinese food. Excellent.",
+      "type": "restaurants",
+      "id": 2
+    },
+    {
+      "place": "Papusa Metapan",
+      "location": "San Francisco, CA",
+      "description": "El Salvadoran restaurant specialized in Papusas. Located on Mission street in San Fran. Best Papusas I have ever had.",
+      "type": "restaurants",
+      "id": 3
+    }
+  ],
+  "cities": [
+    {
+      "place": "San Francisco",
+      "location": "California",
+      "description": "One of the most interesting places to visit. All food in San Francisco is to die for. I have family there and it is where my grandmother landed when she emigrated from El Salvador.",
+      "type": "cities",
+      "id": 1
+    }
+  ]
+}

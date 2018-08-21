@@ -3,7 +3,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON("package.json"),
         watch: {
             scripts: {
-                files: ["../index.html", "../js/**/*.js", "../css/**/*.css", "!node_modules/**/*.js"],
+                files: ["../index.html", "../js/**/*.js", "../styles/**/*.css", "!node_modules/**/*.js"],
                 tasks: ["eslint", "browserify", "copy"],
                 options: {
                     spawn: false,
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: "..",
-                    src: "./css/*",
+                    src: "./styles/*",
                     dest: "../../dist/"
                 }, {
                     expand: true,
